@@ -12,6 +12,7 @@ fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 sqlalchemy = "*"
 psycopg2-binary = "*"
+websockets = "*"
 
 [requires]
 python_version = "3"
