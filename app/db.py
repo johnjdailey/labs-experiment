@@ -38,3 +38,9 @@ async def get_url(connection=Depends(get_db)):
     """
     url_without_password = repr(connection.engine.url)
     return {'database_url': url_without_password}
+
+@router.get('docstring_message')
+async def docstring_description():
+    "This is an example of a doctring, you should use them :)"
+    return "Wow, this docstring is so decriptive of how to use doctrings!"
+    

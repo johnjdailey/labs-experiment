@@ -16,8 +16,8 @@ To use these interactive docs:
 """
 
 app = FastAPI(
-    title='DS API',
-    description=description,
+    title='DS CitySpire API',
+    description="Use the DS CitySpire API to get recommendations on the best places to live based on your own person preferences.",
     docs_url='/',
 )
 
